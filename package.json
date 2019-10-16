@@ -1,0 +1,23 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Livraria Casa do Codigo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thyago86/AluraNodeJSCourse.git"
+  },
+  "author": "Thyago Bezerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thyago86/AluraNodeJSCourse/issues"
+  },
+  "homepage": "https://github.com/thyago86/AluraNodeJSCourse#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
