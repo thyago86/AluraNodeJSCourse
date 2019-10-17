@@ -1,3 +1,10 @@
+const express = require('express');
+const app = express();
+
+app.listen(3000, function(){
+    console.log('Servidor rodando na porta 3000');
+});
+
 const http = require('http');
 
 const servidor = http.createServer(function (req, res){
@@ -26,4 +33,4 @@ const servidor = http.createServer(function (req, res){
     res.end(html);
     
 });
-servidor.listen(3000);
+//servidor.listen(3000);
